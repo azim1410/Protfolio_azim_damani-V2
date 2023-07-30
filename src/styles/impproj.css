@@ -1,0 +1,148 @@
+.impproj h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 5rem;
+   font-weight: 300;
+}
+
+.projectdesc{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.project{
+    display: flex; 
+    gap: 100px;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+}
+.phone{
+    width: 300px;
+    height: 600px;
+    flex: 1;
+    position: relative;
+    
+}
+
+.phonescreen{
+    width: 264px;
+    height: 567px;
+    position: absolute;
+    
+    top: 1rem;
+    left: 8.2rem;
+    border-radius: 30px;
+    overflow: scroll;
+}
+
+.phonescreen::-webkit-scrollbar{
+    display: none;
+}
+
+
+.phoneapp{
+    width: 100%;
+}
+
+.project:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+
+
+.link{
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.projectbutton{
+    padding: 10px 20px;
+    background-color: #11111100;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.projectbutton::after{
+    content: "View App!";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    background-color: #111;
+    display: flex;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 94, 94);
+    transition:  0.5s all;
+    justify-content: center;
+}
+
+.projectbutton:hover.projectbutton::after{
+    transform: translate(100%);
+}
+
+.laptop{
+    width: 600px;
+    height: 379px;
+    flex:1;
+    position: relative;
+
+}
+
+.laptopscreen{
+    width: 451px;
+    height: 283px;
+    position: absolute;
+    top: 18px;
+    left: 68px;
+    /* overflow: scroll; */
+    /* background-color: aqua; */
+}
+
+.laptopapp{
+    width: 100%;
+    height: 283px;
+}
+
+.laptop2screen{
+    width: 451px;
+    height: 283px;
+    position: absolute;
+    top: 18px;
+    left: 68px;
+    overflow: scroll;
+    /* background-color: aqua; */
+}
+
+.laptop2app{
+    width: 100%;
+}
+
+.viewmore{
+    padding: 20px;
+}
+
+@media screen and (max-width:1024px) {
+
+    .projects{
+      padding: 0 30px;
+      text-align: center;
+    }
+  
+    .project{
+      flex-direction: column;
+      height: max-content;
+    }
+    .project:nth-child(2n){
+      flex-direction: column;
+    }
+  
+    
+    
+    
+  }
