@@ -28,8 +28,8 @@
     height: 567px;
     position: absolute;
     
-    top: 1rem;
-    left: 8.2rem;
+    top: 17px;
+    left: 17px;
     border-radius: 30px;
     overflow: scroll;
 }
@@ -127,7 +127,7 @@
     padding: 20px;
 }
 
-@media screen and (max-width:1024px) {
+/* @media screen and (max-width:1024px) {
 
     .projects{
       padding: 0 30px;
@@ -145,4 +145,4 @@
     
     
     
-  }
+  } */

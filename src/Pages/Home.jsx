@@ -44,9 +44,10 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="projects">
+      {/* <div className="projects">
         <ImpProj />
-      </div>
+      </div> */}
+      <ImpProj />
 
       <div className="experience">
         <Experience />

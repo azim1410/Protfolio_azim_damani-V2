@@ -17,7 +17,14 @@
 
 .link:hover {
   padding: 1rem;
-  border-bottom: 5px solid rgb(67, 67, 67);
+  /* border-radius: 10px; */
+  /* border: 0px solid black; */
+  margin: 20px 20px 20px 20px;
+  border-bottom: 4px solid rgb(0, 0, 0);
+  
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  /* background-color: rgb(228, 228, 228); */
+  
 }
 
 .navbar a {

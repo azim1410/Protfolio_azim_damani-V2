@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom'
 const ImpProj = () => {
     const navigate = useNavigate()
   return (
-    <div className="impproj">
+    <div className="projects">
         <h1>Projects</h1>
 
         {/* proj 2 */}
@@ -27,9 +27,9 @@ const ImpProj = () => {
               <h3>Freatures: Full Authentication with Jwt tokens,
                 Payment integration , Messaging facility, Maintainance of Gigs </h3>
             <h3>Technologies used: ReactJS, MongoDB, Express, NodeJS, ReactQuery, Stripe, Vite.</h3>
-              <h4>Work in Progress</h4>
+              <a className='link' href="https://github.com/azim1410/FreeLancer.NOW">GitHub Link</a>
             </p>
-            <form action="https://github.com/azim1410/FreeLancerNow-frontend">
+            <form action="https://github.com/azim1410/FreeLancer.NOW">
                 <button onclick="" class="projectbutton">View more</button>
             </form>
           </div>

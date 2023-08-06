@@ -26,8 +26,8 @@ const Project = () => {
           <img className="cardimg" src={freelancer} alt="" />
           <h2>FreeLancer.NOW</h2>
 
-          {/* <a href="https://gymapp-byazim-v3.netlify.app/">Try My app Now !!</a> */}
-          <a href="">Github code</a>
+          <a href=""></a>
+          <a href="https://github.com/azim1410/FreeLancer.NOW">Github code</a>
         </div>
 
 
